@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-Universal File Organizer — Rich UI + Threaded Duplicate Detection
-Features:
- - Deep-merge config
- - MIME-aware categories + MIME-based subfolders (e.g., Videos/MP4)
- - ThreadPoolExecutor for parallel operations
- - Chunked hashing for large files (configurable chunk size)
- - Threaded duplicate detection (parallel hashing) and threaded duplicate processing
- - Rich live progress dashboard (organize, hash, process)
- - Dry-run support, logging, ignore lists, interactive duplicate resolution
-"""
-
 import os
 import sys
 import shutil
