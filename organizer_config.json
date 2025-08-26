@@ -1,0 +1,22 @@
+{
+  "folders": {
+    "Projects": {
+      "extensions": ["html", "jsx", "tsx", "vue", "svelte"],
+      "ignore": ["node_modules", ".venv", "venv", ".env", "__pycache__", ".git", "dist", "build"]
+    },
+    "Images": ["png", "jpg", "jpeg", "webp", "gif"],
+    "Code": ["py", "js", "ts", "css", "java", "cpp", "go", "rb"],
+    "Documents": ["pdf", "md", "txt", "docx", "xlsx", "pptx"],
+    "Videos": ["mp4", "mov", "avi", "mkv"],
+    "Audio": ["mp3", "wav", "flac", "aac"],
+    "Archives": ["zip", "tar", "gz", "rar", "7z"]
+  },
+  "big_file_threshold_mb": 100,
+  "hash_chunk_size_bytes": 4194304,
+  "log_file": "organizer.log",
+  "duplicates": {
+    "strategy": "interactive",
+    "checksum_types": ["md5"],
+    "action": "delete"
+  }
+}
