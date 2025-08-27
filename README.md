@@ -12,6 +12,6 @@ A CLI tool for organizing files, detecting duplicates, and keeping projects safe
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/uforganizer.git
+git clone https://github.com/solanasign/uforganizer.git
 cd uforganizer
 pip install .
